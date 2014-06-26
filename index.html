@@ -8,6 +8,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="yes" />
     <link rel="stylesheet" href="css/mobile-angular-ui-base.css">
     <link rel="stylesheet" href="css/mobile-angular-ui-desktop.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
     <script src="js/angular.js"></script>
     <script src="js/angular-route.min.js"></script>
     <script src="js/mobile-angular-ui.js"></script>
@@ -62,7 +63,9 @@
                     </div>
                 </div>
             </form>
-
+            <div ng-show="handleloading">
+                <img src="img/load.gif" class="imageCentrify">
+            </div>
         </div>
     </div>
 </div>
@@ -113,6 +116,7 @@
 
 
 </div><!-- ~ .app -->
+
 
 
 </body>
